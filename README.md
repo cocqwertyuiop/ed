@@ -7052,7 +7052,7 @@ local Button = pvpTab:CreateButton({
 })
 
 local Toggle = farmTab:CreateToggle({
-   Name = "强锁自瞄无法关闭慎开",
+   Name = "强锁自瞄无法关闭慎开，一直右键平滑可切换目标",
    CurrentValue = false,
    Flag = "aimbot", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
